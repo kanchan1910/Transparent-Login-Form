@@ -1,0 +1,72 @@
+/* CSS reset*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: url(bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.container
+{
+	color: white;
+	position: absolute;
+	top: 26%;
+	left: 40%;
+}
+
+.container h1
+{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 13px;
+    margin-left: 22px;
+    padding: 13px 0;
+}
+
+.box
+{
+    width: 100%; 
+    margin: 22px 27px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+.box input
+{  
+    background: none;
+    width: 75%;
+    padding: 10px 10px;
+    font-size: 26px;
+    border: none;
+    outline:none;
+    color: white;
+    font-weight: bold;
+}
+.btn
+{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 26px;
+    padding: 10px 21px;
+    border: 3px solid purple;
+    border-radius: 12px;
+    font-size: 20px;
+    background: none;
+    font-weight: bold;
+    
+}
+
+.btn:hover
+{
+    opacity: 0.6;
+    color: purple; 
+    background: white; 
+    text-decoration: underline;
+    
+}
